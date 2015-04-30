@@ -44,7 +44,9 @@ This file contain <i>array data</i> that we want to load via function in <code>i
 </code></pre>
 
 And finally, we just need to fetch the data and show it to the world :
-<pre><code>while ($fruit_name = current($array)) {<br />
+<pre><code>
+$jenis = $_GET['jenis'];
+while ($fruit_name = current($array)) {<br />
 &nbsp; &nbsp; if ($fruit_name == $jenis) {<br />
 &nbsp; &nbsp; &nbsp; &nbsp; echo &quot;&lt;option value = &#39;&quot;.key($array).&quot;&#39;&gt;&quot;.key($array).&quot;&lt;/option&gt;&quot;;<br />
 &nbsp; &nbsp; }<br />

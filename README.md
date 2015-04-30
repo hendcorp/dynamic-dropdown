@@ -1,6 +1,8 @@
 # dynamic-dropdown
 Dynamic Dropdown with jQuery and PHP
 
+Live demo http://livedemo.hendrasetiawan.net/dynamic-dropdown/
+
 This project show you how to create dynamic dropdown with jQuery and PHP.
 
 <h4>1. index.php</h4>
